@@ -1,0 +1,97 @@
+body {
+    margin: 0px;
+}
+
+@font-face {}
+
+.sideMenu {
+    /* max-height: 100vh; */
+    max-width: 30vw;
+    /* position: relative; */
+    background-image: url("./asset/background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: start; */
+    height: 100vh;
+
+}
+
+.logo {
+    display: flex;
+    /* flex-direction: column; */
+    margin-top: 20vh;
+    /* margin-bottom: 80vh; */
+    padding-inline: 15vw;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5);
+    position: inherit;
+    /* background-color: #596D48; */
+
+    .image {
+        height: auto;
+        /* width: auto; */
+        display: block;
+        max-width: 10vw;
+        padding-inline: 2vw;
+    }
+
+    .name {
+        font-size: 3.5em;
+        color: aliceblue;
+        font-family: GraublauWeb;
+        src: url("./asset/Norse-Bold.otf");
+    }
+
+}
+
+.title {
+    margin-left: 5vw;
+    margin-block: 10vh;
+}
+
+.doThis {
+    margin-left: 5vw;
+}
+
+.form {
+
+
+    .label {
+        text-transform: uppercase;
+    }
+
+    #phone_num input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    .input {
+        font-size: 1.5 rem;
+    }
+
+
+    background: rgba(0, 0, 0, 0.2);
+    padding-block: 5vh;
+    padding-inline: 5vw;
+    display: grid;
+    grid-template: repeat(3, 1fr) /repeat(2, 1fr);
+    gap: 1vw;
+    /* border: red 1px solid; */
+}
+
+.btn {
+    margin-block: 3vh;
+    margin-left: 5vw;
+    background-color: #596D48;
+    padding: 1em;
+    color: aliceblue;
+    border-radius: 8px;
+    font-size: 1em;
+}
